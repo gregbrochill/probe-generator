@@ -1,4 +1,4 @@
-##This script takes router hostname/IP data from a CSV file and generates configurations for a full mesh of probes between the routers.  Each 
+##This script takes router hostname/IP data from a CSV file and generates configurations for a full mesh of probes between the routers.
 
 import csv
 
@@ -15,7 +15,7 @@ ip sla {sla_num}
 ip sla schedule {sla_num} life forever start-time now
 """
 
-#Type of service strings
+#Type of service key value pairs
 tos_strings = {
     64: 'PRI1',
     32: 'PRI2',
