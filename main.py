@@ -1,4 +1,4 @@
-##This script takes router hostname/IP data from a CSV file and generates IP SLA UDP-Jitter configurations for a full mesh of probes between the routers documented in routers.csv
+#This script extracts router hostname/IP information from a CSV file and creates IP SLA UDP-Jitter configurations for a full mesh of probes connecting the routers listed in routers.csv.
 
 import csv
 
